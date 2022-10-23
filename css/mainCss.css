@@ -1,0 +1,51 @@
+
+body {
+
+    align-items: center;
+    background-color:burlywood;
+}
+
+h1, p {
+    font-family:cursive;
+    color:white;
+    text-align: center; 
+}
+
+#container {
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#General,#Currency,#BMI {
+
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 350px;
+    border: 5px solid brown;
+    margin: 10px;
+    border-radius: 20px;
+    background-color:blanchedalmond;
+    transition: transform .2s;
+    align-items: center;
+    color:#E9833C;
+    font-size: 25px;
+    
+}
+
+#General:hover,#Currency:hover,#BMI:hover { 
+    transform: scale(1.1);
+}
+
+#img1,#img2,#img3 {
+
+    margin-top: 35px;
+    width: 200px;
+    height: 180px;
+}
+
